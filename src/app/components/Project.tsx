@@ -54,7 +54,7 @@ function Project({ name, image, description, link, video }: ProjectProps) {
         />
         <div className="flex flex-row absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
           <div className="flex flex-1 justify-center items-center gap-4">
-            <button onClick={openModal}>
+            <button onClick={openModal} aria-label="Play video">
               <div className="bg-[#FFF] bg-opacity-50 p-0.5 rounded-full hover:bg-[#4d5c2e] hover:bg-opacity-30">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function Project({ name, image, description, link, video }: ProjectProps) {
         style={customStyles}
       >
         <button onClick={closeModal} className="absolute top-2 right-3 p-1
-        ">
+        " aria-label="Close modal">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24px"
