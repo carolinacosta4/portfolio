@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="w-full" id="skills">
       <p className="text-2xl mb-2 font-medium">Skills</p>
-      <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 w-full gap-4 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-cols-2 lg:grid-cols-3 w-full gap-4 font-[family-name:var(--font-geist-sans)]">
         <Skill name="HTML" icon="https://skillicons.dev/icons?i=html" />
         <Skill name="CSS" icon="https://skillicons.dev/icons?i=css" />
         <Skill name="JavaScript" icon="https://skillicons.dev/icons?i=js" />

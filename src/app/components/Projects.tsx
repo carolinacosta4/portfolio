@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div className="w-full" id="projects">
       <p className="text-2xl mb-2 font-medium">Projects</p>
-      <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-full gap-4 xl:gap-8 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-full gap-4 xl:gap-8 font-[family-name:var(--font-geist-sans)]">
         <Project
           name="MNUSE"
           link="https://github.com/carolinacosta4/mnuse"

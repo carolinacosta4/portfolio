@@ -37,7 +37,7 @@ function ContactMe() {
     <div className="w-full border border-[#606c38] p-4 rounded-lg" id="contact">
       <p className="text-2xl font-medium mb-4">Contact Me</p>
       <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
-        <div className="flex gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           <input
             type="text"
             placeholder="Name"
