@@ -3,7 +3,7 @@ import mnuse from '../assets/mnuse.png'
 import gymnart from '../assets/gymnart.png'
 import rent from '../assets/rent+.png'
 import wine from '../assets/wine.png'
-import TUDU from '../assets/TUDU.png'
+import TUDU from '../assets/tudu.png'
 import hush from '../assets/hush.png'
 
 function Projects() {
